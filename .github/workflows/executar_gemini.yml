@@ -21,4 +21,4 @@ jobs:
       - name: Executar Script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python listar_modelos.py
+        run: python list_models.py
